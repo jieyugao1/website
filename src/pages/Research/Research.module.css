@@ -1,0 +1,46 @@
+.parent {
+    height: 100vh;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.list li {
+    list-style-type: none;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 4px 8px;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.list li a {
+    text-decoration: none;
+    color: #007FFF;
+}
+
+.list li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #40A4C8;
+    text-underline-offset: 6px;
+}
+
+@media (max-width: 700px) {
+    .parent {
+        padding: 0 0
+    }
+    .list li {
+        width: 90%;
+    }
+    .list {
+        padding-left: 0 !important;
+    }
+    
+}

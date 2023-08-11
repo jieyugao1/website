@@ -1,0 +1,43 @@
+.Toolbar {
+    height:70px;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    /* background-color: #703B09; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing:border-box;
+    z-index:90;
+    box-shadow: 5px 3px 8px #888888;
+}
+
+.TransitionNav {
+    animation: fadeIn ease 02s;
+    -webkit-animation: fadeIn ease 01s;
+    -moz-animation: fadeIn ease 01s;
+    -o-animation: fadeIn ease 01s;
+    -ms-animation: fadeIn ease 01s;
+    background-color: #F5F5F5;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.Toolbar nav {
+    height:100%;
+}
+
+.Logo {
+    height:80%;
+}
+
+@media(max-width:499px) {
+    .DesktopOnly {
+        display:none
+    }
+}
