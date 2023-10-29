@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .parent {
     height: 100vh;
     padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Quicksand', sans-serif;
 
+}
+
+.cardHeader {
+    text-align: center;
 }
 
 
 .list li {
     list-style-type: none;
     width: 600px;
-    height: 100px;
+    /* height: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin: 10px;
-    padding: 4px 8px;
-    text-align: center;
+    padding: 16px;
     box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 
@@ -36,11 +42,13 @@
     .parent {
         padding: 0 0
     }
+
     .list li {
         width: 90%;
     }
+
     .list {
         padding-left: 0 !important;
     }
-    
+
 }

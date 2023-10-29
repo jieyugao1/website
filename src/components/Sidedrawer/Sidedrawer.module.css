@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 .SideDrawer {
     position: fixed;
@@ -6,14 +6,14 @@
     max-width: 35%;
     height: 100%;
     /* left: 0; */
-    right:0;
+    right: 0;
     top: 0;
     z-index: 200;
     background-color: #f2eee1;
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .Title {
@@ -30,29 +30,29 @@
     float: right;
     position: relative;
     font-size: 25px;
-    color:black;
+    color: black;
     cursor: pointer;
 }
 
 .CloseWindow:hover {
-    -webkit-animation:spin 0.4s linear normal;
-    -moz-animation:spin 0.4s linear normal;
-    animation:spin 0.4s linear normal;
+    -webkit-animation: spin 0.4s linear normal;
+    -moz-animation: spin 0.4s linear normal;
+    animation: spin 0.4s linear normal;
 }
 
 .Contact {
-    color:black;
+    color: black;
     margin-top: 8vh;
     margin-left: 5vw;
-    width:70%;
-    height:50%;
-    display:flex;
+    width: 70%;
+    height: 50%;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
     /* text-align: center; */
 
-    
+
 }
 
 .Contact h4 {
@@ -92,9 +92,24 @@
     margin-bottom: 32px;
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
 
 
 
@@ -112,14 +127,14 @@
     }
 
     .Contact {
-        font-size:14px;
+        font-size: 14px;
         align-items: flex-start;
         text-align: start;
     }
 
     .Contact h4 {
         font-size: 18px;
-      
+
     }
 
     .Title {
@@ -128,11 +143,11 @@
 
     .Description {
         font-size: 12px;
-       margin: 0px 12px;
+        margin: 0px 12px;
     }
 
     .Icons {
         font-size: 20px;
-        width:100%;
+        width: 100%;
     }
 }
