@@ -42,8 +42,8 @@
 
 .Contact {
     color: black;
-    margin-top: 8vh;
-    margin-left: 5vw;
+    margin-top: 4vh;
+    margin-left: 3vw;
     width: 70%;
     height: 50%;
     display: flex;
@@ -63,7 +63,7 @@
 .Captions {
     font-weight: bold;
     text-decoration: underline;
-    text-decoration-color: #C49B66;
+    text-decoration-color: #B39BC8;
     text-underline-position: under;
     font-size: 20px;
 }

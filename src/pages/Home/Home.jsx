@@ -10,7 +10,7 @@ const Home = (props) => {
             <div className={styles.content}>
                 <div className={styles.intro}>
                     <div>
-                        <p style={{ fontSize: '50px' }}>Jieyu Gao</p>
+                        <p className={styles.name}>Jieyu Gao</p>
                         <p className={styles.paragraph}>I am a Ph.D. candidate in Economics at the University of California-Irvine.</p>
                         <p className={styles.paragraph}>My research focuses on <span className={styles.bold}>Bayesian econometrics </span>and <span className={styles.bold}>causal inference.</span>.</p>
                         <div className={styles.buttons}>

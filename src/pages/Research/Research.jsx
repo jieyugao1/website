@@ -6,7 +6,7 @@ import JMP from '../../assets/jmp.pdf'
 const Research = (props) => {
     return (
         <div className={styles.parent}>
-            <h1 style={{ marginLeft: "22px" }}>Working Papers</h1>
+            <h1 style={{ marginLeft: "22px", fontWeight: 'bold' }}>Working Papers</h1>
             <ul className={styles.list}>
                 <li>
                     <div style={{ fontWeight: 'bold' }} className={styles.cardHeader}>On the Importance of Heteroskedasticity in Causal Inference</div>
