@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Orbitron:wght@400;500&family=Quicksand&display=swap');
 
 .SideDrawer {
     position: fixed;
@@ -9,7 +10,8 @@
     right: 0;
     top: 0;
     z-index: 200;
-    background-color: #f2eee1;
+    /*background-color: #f2eee1; */
+    background-color: #e7e5bb;
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
@@ -19,11 +21,16 @@
 .Title {
     font-size: 41px;
     font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
 
 }
 
 .Title span {
     font-style: italic;
+}
+
+.Description {
+    font-family: "Quicksand", sans-serif;
 }
 
 .CloseWindow {
@@ -66,6 +73,11 @@
     text-decoration-color: #B39BC8;
     text-underline-position: under;
     font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contactInfo {
+    font-family: "Quicksand", sans-serif;
 }
 
 /* .Icons {

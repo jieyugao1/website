@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quicksand&display=swap');
 
 .parent {
     padding: 12px;
@@ -6,7 +8,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
-    background: #B39BC8;
+    background: #dfe4ce;
 }
 
 .list {
@@ -40,6 +42,20 @@
     text-underline-offset: 6px;
 }
 
+p {
+    font-style: italic;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/*.cardHeader {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400px;
+}*/
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500px;
+}
 
 @media (max-width: 700px) {
     .parent {
