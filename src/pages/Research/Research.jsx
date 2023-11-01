@@ -6,7 +6,8 @@ import JMP from '../../assets/GaoJeliazkov2023.pdf';
 const Research = (props) => {
     return (
         <div className={styles.parent}>
-            <h1 style={{ marginLeft: "22px", fontWeight: 'bold' }}>Working Papers</h1>
+            <h1 style={{ marginLeft: "22px", fontWeight: 'bold' }}>Research</h1>
+            <h2 className={styles.subh2}>Working Papers</h2>
             <ul className={styles.list}>
                 <li>
                     <div style={{ fontWeight: 'bold' }} className={styles.cardHeader}>On the Importance of Heteroskedasticity in Causal Inference</div>
@@ -25,6 +26,17 @@ const Research = (props) => {
                 <li>
                     <div style={{ fontWeight: 'bold' }} className={styles.cardHeader}>Product Pricing with Consumer Learning</div>
                     <a href={Paper3} target="_blank" rel="noreferrer" style={{ textAlign: "center" }}>Paper</a>
+                </li>
+            </ul>
+            <h2 className={styles.subh2}>Work in Progress</h2>
+            <ul className={styles.list}>
+                <li>
+                    <div style={{ fontWeight: 'bold' }} className={styles.cardHeader}>Bayesian Analysis of Drug and Mental Health Treatment Effects</div>
+                </li>
+                <li>
+                    <div style={{ fontWeight: 'bold' }} className={styles.cardHeader}>Bayesian Synthetic Control Method</div>
+                    <div style={{ marginTop: '10px' }} className={styles.cardHeader}> With Ivan Jeliazkov and Shubham Karnawat</div>
+
                 </li>
             </ul>
         </div >

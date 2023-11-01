@@ -1,0 +1,30 @@
+[debug] [2023-11-01T05:55:12.936Z] ----------------------------------------------------------------------
+[debug] [2023-11-01T05:55:12.938Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-11-01T05:55:12.939Z] CLI Version:   12.4.7
+[debug] [2023-11-01T05:55:12.939Z] Platform:      darwin
+[debug] [2023-11-01T05:55:12.939Z] Node Version:  v18.17.1
+[debug] [2023-11-01T05:55:12.955Z] Time:          Tue Oct 31 2023 22:55:12 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-11-01T05:55:12.955Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-01T05:55:13.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-01T05:55:13.034Z] > authorizing via signed-in user (jieyugao777@gmail.com)
+[debug] [2023-11-01T05:55:13.034Z] [iam] checking project jieyuwebsite for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-11-01T05:55:13.036Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/jieyuwebsite:testIamPermissions [none]
+[debug] [2023-11-01T05:55:13.036Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/jieyuwebsite:testIamPermissions x-goog-quota-user=projects/jieyuwebsite
+[debug] [2023-11-01T05:55:13.043Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jieyuwebsite:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-01T05:55:13.484Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/jieyuwebsite:testIamPermissions 200
+[debug] [2023-11-01T05:55:13.485Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jieyuwebsite:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-01T05:55:13.486Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jieyuwebsite [none]
+[debug] [2023-11-01T05:55:13.767Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jieyuwebsite 200
+[debug] [2023-11-01T05:55:13.768Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jieyuwebsite {"projectId":"jieyuwebsite","projectNumber":"130226168233","displayName":"jieyuwebsite","name":"projects/jieyuwebsite","resources":{"hostingSite":"jieyuwebsite"},"state":"ACTIVE","etag":"1_06abc8d9-c45c-4b61-80d0-fc75295235a2"}
+[info] 
+[info] === Deploying to 'jieyuwebsite'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-11-01T05:55:13.776Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jieyuwebsite/versions [none]
+[debug] [2023-11-01T05:55:13.776Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jieyuwebsite/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-11-01T05:55:14.811Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jieyuwebsite/versions 200
+[debug] [2023-11-01T05:55:14.812Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jieyuwebsite/versions {"name":"projects/130226168233/sites/jieyuwebsite/versions/020519761fa8b972","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[jieyuwebsite]: beginning deploy... 
+[info] i  hosting[jieyuwebsite]: found 37 files in build 
+[debug] [2023-11-01T05:55:14.828Z] [hosting] uploading with 200 concurrency
