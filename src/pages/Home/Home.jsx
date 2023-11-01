@@ -2,7 +2,7 @@ import styles from './Home.module.css';
 import ProfilePhoto from '../../assets/jieyu.png'
 import Resume from '../../assets/Resume.pdf';
 import CV from '../../assets/cv.pdf';
-import JMP from '../../assets/jmp.pdf';
+import JMP from '../../assets/GaoJeliazkov2023.pdf';
 const Home = (props) => {
     return (
         <div className={styles.home}>

@@ -1,7 +1,7 @@
 import styles from './Research.module.css';
 import Paper2 from '../../assets/paper2.pdf'
 import Paper3 from '../../assets/paper3.pdf'
-import JMP from '../../assets/jmp.pdf'
+import JMP from '../../assets/GaoJeliazkov2023.pdf';
 
 const Research = (props) => {
     return (
