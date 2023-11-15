@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Regression Discontinuity Design}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Sharp Regression Discontinuity Design}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Bayesian Model Comparison and Marginal Likelihood Estimation}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Simulation Results}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Application: The Effects of Academic Probation on Academic Performance}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Fuzzy Regression Discontinuity Design}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Potential Outcome Framework}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Simulation}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Application: The Effects of Medigap on Healthcare Expenditure}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Propensity Score Matching}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Simulation}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Application: The Effects of COVID-19 Vaccination on Mental Well-being}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 14
+\BOOKMARK [1][-]{appendix.A}{Sharp Regression Discontinuity Design: Other Simulation Results}{}% 15
+\BOOKMARK [1][-]{appendix.B}{MEPS: Coefficients}{}% 16
