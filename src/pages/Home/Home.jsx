@@ -12,7 +12,7 @@ const Home = (props) => {
                     <div>
                         <p className={styles.name}>Jieyu Gao</p>
                         <p className={styles.paragraph}>I am a Ph.D. candidate in Economics at the University of California-Irvine.</p>
-                        <p className={styles.paragraph}>My research focuses on <span className={styles.bold}>Bayesian econometrics </span>and <span className={styles.bold}>causal inference.</span></p>
+                        <p className={styles.paragraph}>My research focuses on <span className={styles.bold}>econometrics</span>, <span className={styles.bold}>Bayesian methods</span>, and <span className={styles.bold}>causal inference.</span></p>
                         <div className={styles.buttons}>
                             <div>
                                 <button className={styles.button}><a href={Resume} className={styles.anchor} target="_blank" rel="noreferrer">Resume</a></button>
