@@ -20,7 +20,7 @@ const Research = (props) => {
 
                         Multiple Outcomes</div>
 
-                    <a href={Paper3} target="_blank" rel="noreferrer" style={{ textAlign: "center" }}>Paper</a>
+                    <a href={Paper2} target="_blank" rel="noreferrer" style={{ textAlign: "center" }}>Paper</a>
 
                 </li>
                 <li>
