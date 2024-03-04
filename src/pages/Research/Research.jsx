@@ -1,6 +1,6 @@
 import styles from './Research.module.css';
-import Paper2 from '../../assets/paper2.pdf'
-import Paper3 from '../../assets/paper3.pdf'
+import Paper2 from '../../assets/Chapter2_BayesianMultipleOutcomes.pdf'
+import Paper3 from '../../assets/Chapter3_PriceSignaling.pdf'
 import JMP from '../../assets/GaoJeliazkov2023.pdf';
 
 const Research = (props) => {
